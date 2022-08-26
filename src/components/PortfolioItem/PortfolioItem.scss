@@ -1,0 +1,62 @@
+@import "../../styles/vars";
+
+.portfolio__item {
+  display: flex;
+  margin-top: 50px;
+}
+
+// .portfolio__imageWrapper {
+//   width: 600px;
+// }
+
+.portfolio__image {
+  // width: 100%;
+  width: 400px;
+  border-radius: 12px;
+}
+
+.portfolio__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.portfolio__header {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.portfolio__stack {
+  font-family: $accentFont;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.portfolio__skill {
+  color: $accentColor;
+}
+
+.portfolio__description {
+  font-size: 14px;
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+.portfolio__list {
+  padding: 0.2em 0;
+}
+
+.portfolio__links {
+  display: flex;
+  gap: 1.5em;
+  // font-family: $accentFont;
+}
+
+.portfolio__link {
+  font-size: 16px;
+  text-decoration: underline;
+  color: $accentColor;
+  font-weight: 600;
+}

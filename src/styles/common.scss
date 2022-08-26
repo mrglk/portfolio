@@ -1,0 +1,57 @@
+@import "vars";
+@import "fonts";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $bgColor;
+  color: $textColor;
+  font-family: $generalFont;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container__row {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: $textColor;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    // text-decoration: underline; // убрать??
+  }
+}
+
+p {
+  color: $textColor;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $accentFont;
+}
