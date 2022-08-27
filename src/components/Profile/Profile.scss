@@ -11,7 +11,6 @@
 
 .profile__photo {
   width: 100%;
-  border-radius: 100px;
 }
 
 .profile__info {
@@ -40,10 +39,12 @@
   font-family: $accentFont;
   background-color: $textColor;
   color: $bgColor;
+  border: 2px solid $textColor;
 
   &:hover {
-    background-color: $accentColor;
-    transition: background-color 0.2s ease-in-out;
+    color: $textColor;
+    background-color: $bgColor;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   }
 }
 
