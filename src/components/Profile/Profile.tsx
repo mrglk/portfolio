@@ -13,6 +13,8 @@ export function Profile() {
         <div className="profile__buttonWrapper">
           <a
             className="profile__button"
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1eODbWckO4B1mR8cypgfQxXwZbloLFRBD/view">
             Скачать резюме
           </a>

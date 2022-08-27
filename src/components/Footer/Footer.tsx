@@ -11,10 +11,16 @@ export function Footer() {
           <a href="https://t.me/mrmnvch">
             <img alt="Telegram" src={TelegramIcon} />
           </a>
-          <a href="https://github.com/mrglk">
+          <a
+            href="https://github.com/mrglk"
+            target="_blank"
+            rel="noopener noreferrer">
             <img alt="Github" src={GithubIcon} />
           </a>
-          <a href="https://vk.com/mrmnvch">
+          <a
+            href="https://vk.com/mrmnvch"
+            target="_blank"
+            rel="noopener noreferrer">
             <img alt="Vkontakte" src={VkIcon} />
           </a>
         </div>

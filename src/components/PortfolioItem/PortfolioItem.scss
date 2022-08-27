@@ -50,7 +50,7 @@
 
 .portfolio__infoWrapper {
   display: flex;
-  background-color: #e0e1e2;
+  background-color: #e5e7eb;
 }
 
 .portfolio__info {
@@ -99,10 +99,29 @@
 }
 
 .portfolio__link {
+  display: block;
+  position: relative;
   font-size: 16px;
-  text-decoration: underline;
   color: $accentColor;
   font-weight: 600;
+  transition: 0.1s;
+}
+
+.portfolio__link::after {
+  content: "";
+  position: absolute;
+  bottom: -1.3px;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: $accentColor;
+  opacity: 1;
+  transition: opacity 100ms, transform 100ms;
+}
+
+.portfolio__link:hover::after {
+  opacity: 0;
+  transform: translate3d(0, 0.2em, 0);
 }
 
 @media screen and (max-width: $tablet) {

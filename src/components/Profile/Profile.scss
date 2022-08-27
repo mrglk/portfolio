@@ -11,7 +11,7 @@
 
 .profile__photo {
   width: 100%;
-  border-radius: 200px;
+  border-radius: 100px;
 }
 
 .profile__info {
@@ -32,13 +32,12 @@
 }
 
 .profile__buttonWrapper {
-  margin-top: 60px;
+  margin-top: 55px;
 }
 
 .profile__button {
-  padding: 18px 30px;
+  padding: 16px 27px;
   font-family: $accentFont;
-  border-radius: 25px;
   background-color: $textColor;
   color: $bgColor;
 

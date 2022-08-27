@@ -49,10 +49,18 @@ export function PortfolioItem({
             </ul>
           </div>
           <div className="portfolio__links">
-            <a href={demo} className="portfolio__link">
+            <a
+              href={demo}
+              className="portfolio__link"
+              target="_blank"
+              rel="noopener noreferrer">
               Демо
             </a>
-            <a href={repo} className="portfolio__link">
+            <a
+              href={repo}
+              className="portfolio__link"
+              target="_blank"
+              rel="noopener noreferrer">
               Гитхаб
             </a>
           </div>
