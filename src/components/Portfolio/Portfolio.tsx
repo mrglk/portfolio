@@ -1,9 +1,9 @@
-import "./PortfolioList.scss";
+import "./Portfolio.scss";
 import { PortfolioItem } from "../PortfolioItem/PortfolioItem";
 // import { useEffect, useState } from "react";
 import { projects } from "./projects";
 
-export function PortfolioList() {
+export function Portfolio() {
   return (
     <div className="container portfolio">
       <div className="container__row">
@@ -12,12 +12,14 @@ export function PortfolioList() {
           <PortfolioItem
             key={project.name}
             alt={project.name}
-            src={project.image}
+            srcPhone={project.imagePhone}
+            srcDesktop={project.imageDesktop}
             name={project.name}
             stack={project.stack}
             demo={project.demo}
             repo={project.repo}
             description={project.description}
+            color={project.color}
           />
         ))}
       </div>

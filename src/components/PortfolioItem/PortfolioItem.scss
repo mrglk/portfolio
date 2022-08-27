@@ -1,36 +1,80 @@
 @import "../../styles/vars";
 
 .portfolio__item {
-  display: flex;
-  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  margin-top: 70px;
+  border-radius: 200px;
 }
 
-// .portfolio__imageWrapper {
-//   width: 600px;
-// }
+.portfolio__photos {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  align-items: flex-end;
+  padding-top: 4em;
+  min-height: 320px;
+}
 
-.portfolio__image {
-  // width: 100%;
-  width: 400px;
-  border-radius: 12px;
+.portfolio__photos_blue {
+  background-color: #698299;
+}
+
+.portfolio__photos_green {
+  background-color: #95b1ae;
+}
+
+.portfolio__photos_purple {
+  background-color: #b1a1b4;
+}
+
+.portfolio__desktopWrapper {
+  width: 68%;
+}
+
+.portfolio__phoneWrapper {
+  width: 17%;
+}
+
+.portfolio__desktop {
+  position: relative;
+  top: 4px;
+  width: 100%;
+}
+
+.portfolio__phone {
+  position: relative;
+  top: 4px;
+  width: 100%;
+}
+
+.portfolio__infoWrapper {
+  display: flex;
+  background-color: #e0e1e2;
 }
 
 .portfolio__info {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 30px;
+  padding: 30px 40px;
+  background-color: #fafafa;
+  margin: 17px 35px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.08);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.08);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.08);
 }
 
 .portfolio__header {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .portfolio__stack {
   font-family: $accentFont;
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -39,7 +83,7 @@
 }
 
 .portfolio__description {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 1em;
   padding-left: 1em;
 }
@@ -51,7 +95,7 @@
 .portfolio__links {
   display: flex;
   gap: 1.5em;
-  // font-family: $accentFont;
+  margin-top: 10px;
 }
 
 .portfolio__link {
@@ -59,4 +103,15 @@
   text-decoration: underline;
   color: $accentColor;
   font-weight: 600;
+}
+
+@media screen and (max-width: $tablet) {
+  .portfolio__item {
+    grid-template-columns: 1fr;
+    margin-top: 45px;
+  }
+
+  .portfolio__photos {
+    min-height: 150px;
+  }
 }

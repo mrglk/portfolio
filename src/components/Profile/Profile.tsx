@@ -1,14 +1,12 @@
 import "./Profile.scss";
 import photo from "../../assets/img/photo.jpeg";
-// type GreetProps = {
-//   name: string;
-//   count: number;
-// };
 
 export function Profile() {
   return (
     <div className="profile">
-      <img className="profile__photo" alt="Мария Галко" src={photo}></img>
+      <div className="profile__photoWrapper">
+        <img className="profile__photo" alt="Мария Галко" src={photo}></img>
+      </div>
       <div className="profile__info">
         <h1 className="profile__name">Мария Галко</h1>
         <p className="profile__title">Frontend-разработчица JS/React</p>

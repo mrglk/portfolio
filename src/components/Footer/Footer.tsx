@@ -7,11 +7,6 @@ export function Footer() {
   return (
     <div className="container footer">
       <div className="container__row footer__inner">
-        {/* <a
-          className="footer__button"
-          href="https://docs.google.com/document/d/1pWH4DcovX3YMQ18bxxCol9DgN0Bk5o-8QKRmxdWqRio/edit?usp=sharing">
-          Скачать резюме
-        </a> */}
         <div className="footer__links">
           <a href="https://t.me/mrmnvch">
             <img alt="Telegram" src={TelegramIcon} />

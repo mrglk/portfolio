@@ -8,19 +8,6 @@
   align-items: center;
 }
 
-// .footer__button {
-//   background-color: $textColor;
-//   color: $bgColor;
-//   font-weight: 600;
-//   padding: 18px 30px;
-//   border-radius: 25px;
-
-//   &:hover {
-//     background-color: $accentColor;
-//     transition: background-color 0.2s ease-in-out;
-//   }
-// }
-
 .footer__links {
   display: flex;
   gap: 10px;
@@ -31,5 +18,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.4em;
   margin-top: 2em;
 }
