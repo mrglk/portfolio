@@ -29,6 +29,7 @@
 }
 
 .portfolio__desktopWrapper {
+  vertical-align: top;
   width: 68%;
 }
 
@@ -37,14 +38,12 @@
 }
 
 .portfolio__desktop {
-  position: relative;
-  top: 4px;
   width: 100%;
+  vertical-align: top;
 }
 
 .portfolio__phone {
-  position: relative;
-  top: 4px;
+  vertical-align: top;
   width: 100%;
 }
 
