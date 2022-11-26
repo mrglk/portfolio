@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.315f8195.css",
-    "main.js": "/portfolio/static/js/main.f521a3dd.js",
+    "main.css": "/portfolio/static/css/main.93428b43.css",
+    "main.js": "/portfolio/static/js/main.cdf42db0.js",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.95547890e53a54ede3fd.jpg",
     "static/media/Montserrat-BoldItalic.woff": "/portfolio/static/media/Montserrat-BoldItalic.e69710e73897b29b794b.woff",
     "static/media/Montserrat-ExtraBoldItalic.woff": "/portfolio/static/media/Montserrat-ExtraBoldItalic.49ebad33137487f44e60.woff",
     "static/media/Montserrat-SemiBoldItalic.woff": "/portfolio/static/media/Montserrat-SemiBoldItalic.922192555c9d41db1550.woff",
@@ -42,16 +43,15 @@
     "static/media/Gogh-ExtraBold.woff": "/portfolio/static/media/Gogh-ExtraBold.1b7d4036bedb80e9d7fd.woff",
     "static/media/Gogh-ExtraBoldItalic.woff2": "/portfolio/static/media/Gogh-ExtraBoldItalic.350169ab084b4429ece6.woff2",
     "static/media/Gogh-ExtraBold.woff2": "/portfolio/static/media/Gogh-ExtraBold.9dc8876bc2669f3f2e05.woff2",
-    "static/media/photo.jpeg": "/portfolio/static/media/photo.e61456243c165fb8cb34.jpeg",
     "static/media/github.svg": "/portfolio/static/media/github.2313f6066f27488414053abdb5325607.svg",
     "static/media/vk.svg": "/portfolio/static/media/vk.18908ba57a9d742bd8b7e3960a6b2086.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.cef4f30412cce7c87702112f2c9a1a17.svg",
     "index.html": "/portfolio/index.html",
-    "main.315f8195.css.map": "/portfolio/static/css/main.315f8195.css.map",
-    "main.f521a3dd.js.map": "/portfolio/static/js/main.f521a3dd.js.map"
+    "main.93428b43.css.map": "/portfolio/static/css/main.93428b43.css.map",
+    "main.cdf42db0.js.map": "/portfolio/static/js/main.cdf42db0.js.map"
   },
   "entrypoints": [
-    "static/css/main.315f8195.css",
-    "static/js/main.f521a3dd.js"
+    "static/css/main.93428b43.css",
+    "static/js/main.cdf42db0.js"
   ]
 }
