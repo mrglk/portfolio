@@ -1,4 +1,18 @@
 export const projects = [
+  {
+    name: "Сайт биржи вторсырья",
+    imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.png",
+    stack: "React, HTML5, CSS3, SCSS",
+    websait: "https://recyclex.pro/",
+    description: [
+      "Адаптивная валидная верстка по макету из Figma",
+      "Форма заявки с анимацией по шагам формы",
+      "Анимация кнопок",
+      "Смена темы сайта со светлой на темную"
+    ],
+    color: "orange"
+  },
     {
       name: "Интернет-магазин одежды",
       imagePhone: process.env.PUBLIC_URL + "/shop_phone.png",

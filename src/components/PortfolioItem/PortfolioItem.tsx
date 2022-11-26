@@ -5,8 +5,9 @@ type PortfolioProps = {
   srcDesktop: string;
   name: string;
   stack: string;
-  demo: string;
-  repo: string;
+  demo?: string;
+  repo?: string;
+  websait?: string;
   description: string[];
   color: string;
 };
@@ -21,6 +22,7 @@ export function PortfolioItem({
   repo,
   description,
   color,
+  websait
 }: PortfolioProps) {
   return (
     <div className="portfolio__item ">
@@ -49,20 +51,33 @@ export function PortfolioItem({
             </ul>
           </div>
           <div className="portfolio__links">
-            <a
-              href={demo}
-              className="portfolio__link"
-              target="_blank"
-              rel="noopener noreferrer">
-              Демо
-            </a>
-            <a
-              href={repo}
-              className="portfolio__link"
-              target="_blank"
-              rel="noopener noreferrer">
-              Гитхаб
-            </a>
+            {demo&& (
+                                  <a
+                                  href={demo}
+                                  className="portfolio__link"
+                                  target="_blank"
+                                  rel="noopener noreferrer">
+                                  Демо
+                                </a>
+            )}
+            {repo && (
+                          <a
+                          href={repo}
+                          className="portfolio__link"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          Гитхаб
+                        </a>
+            ) }
+             {websait && (
+                          <a
+                          href={websait}
+                          className="portfolio__link"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          Сайт
+                        </a>
+            ) }
           </div>
         </div>
       </div>

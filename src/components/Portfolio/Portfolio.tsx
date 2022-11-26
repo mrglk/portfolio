@@ -18,6 +18,7 @@ export function Portfolio() {
             stack={project.stack}
             demo={project.demo}
             repo={project.repo}
+            websait={project.websait}
             description={project.description}
             color={project.color}
           />

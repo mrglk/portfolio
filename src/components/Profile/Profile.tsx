@@ -1,5 +1,5 @@
 import "./Profile.scss";
-import photo from "../../assets/img/photo.jpeg";
+import photo from "../../assets/img/photo.jpg";
 
 export function Profile() {
   return (
