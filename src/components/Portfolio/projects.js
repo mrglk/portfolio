@@ -4,7 +4,7 @@ export const projects = [
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.png",
     stack: "React, HTML5, CSS3, SCSS",
-    websait: "https://recyclex.pro/",
+    websait: "https://recyclex.online/",
     description: [
       "Адаптивная валидная верстка по макету из Figma",
       "Форма заявки с анимацией по шагам в виде переписки",
