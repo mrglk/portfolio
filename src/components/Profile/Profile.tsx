@@ -15,7 +15,7 @@ export function Profile() {
             className="profile__button"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1tzVyyqxNBpPaPcjgJxg78ye_Lbca3XEX/view">
+            href="https://drive.google.com/file/d/1TzM3BzhcPlvc6iQ1DyznSnmTSFDZqRtD/view">
             Скачать резюме
           </a>
         </div>
