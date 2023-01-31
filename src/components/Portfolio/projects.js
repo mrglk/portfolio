@@ -1,15 +1,17 @@
 export const projects = [
   {
-    name: "Сайт биржи вторсырья",
+    name: "Лендинг для биржи вторсырья",
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.png",
     stack: "React, HTML5, CSS3, SCSS",
-    websait: "https://recyclex.online/",
+    demo: "https://mrglk.github.io/recyclex",
+    repo: "https://github.com/mrglk/recyclex",
     description: [
       "Адаптивная валидная верстка по макету из Figma",
       "Форма заявки с анимацией по шагам в виде переписки",
       "Анимация кнопок",
-      "Смена темы сайта со светлой на темную"
+      "Смена темы сайта со светлой на темную",
+      "Отправка данных из форм на сервер"
     ],
     color: "orange"
   },
