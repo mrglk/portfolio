@@ -1,9 +1,26 @@
 export const projects = [
   {
+    name: "Агентство недвижимости в Дубае",
+    imagePhone: process.env.PUBLIC_URL + "/palladium_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/palladium_desktop.jpg",
+    stack: "JS, HTML5, CSS3",
+    website: "https://palladiumestate.ae/index.html",
+    // repo: "https://github.com/mrglk/recyclex",
+    description: [
+      "Адаптивная кроссбраузерная верстка по макету из Figma",
+      "Анимации кнопок, появления текса, цифр",
+      "Реализация кастомного селекта",
+      "Реализация каталога объектов недвижимости",
+      "Формы заявок, отправка данных на сервер"
+    ],
+    color: "brown"
+  },
+  {
     name: "Лендинг для биржи вторсырья",
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
-    imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.png",
+    imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.jpg",
     stack: "React, HTML5, CSS3, SCSS",
+    website: "https://recyclex.online/",
     demo: "https://mrglk.github.io/recyclex",
     repo: "https://github.com/mrglk/recyclex",
     description: [
@@ -18,7 +35,7 @@ export const projects = [
     {
       name: "Интернет-магазин одежды",
       imagePhone: process.env.PUBLIC_URL + "/shop_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/shop_desktop.png",
+      imageDesktop: process.env.PUBLIC_URL + "/shop_desktop.jpg",
       stack: "JavaScript, HTML5, CSS3, SCSS, Webpack",
       demo: "https://mrglk.github.io/projectShop/index.html",
       repo: "https://github.com/mrglk/projectShop",
@@ -34,7 +51,7 @@ export const projects = [
     {
       name: " SPA-приложение для изучения английского",
       imagePhone: process.env.PUBLIC_URL + "/en_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/en_desktop.png",
+      imageDesktop: process.env.PUBLIC_URL + "/en_desktop.jpg",
       stack: "React, JavaScript, Redux, HTML5, CSS3, SCSS, CSS Modules",
       demo: "https://mrglk.github.io/react_eng",
       repo: "https://github.com/mrglk/react_eng",
@@ -49,7 +66,7 @@ export const projects = [
     {
       name: "Cервис по поиску няни",
       imagePhone: process.env.PUBLIC_URL + "/service_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/service_desktop.png",
+      imageDesktop: process.env.PUBLIC_URL + "/service_desktop.jpg",
       stack: "HTML5, CSS3, SCSS, JavaScript",
       demo: "https://mrglk.github.io/projectMynanny/index.html",
       repo: "https://github.com/mrglk/projectMynanny",

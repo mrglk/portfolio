@@ -22,7 +22,7 @@ export function PortfolioItem({
   repo,
   description,
   color,
-  websait
+  websait,
 }: PortfolioProps) {
   return (
     <div className="portfolio__item ">
@@ -51,33 +51,33 @@ export function PortfolioItem({
             </ul>
           </div>
           <div className="portfolio__links">
-            {demo&& (
-                                  <a
-                                  href={demo}
-                                  className="portfolio__link"
-                                  target="_blank"
-                                  rel="noopener noreferrer">
-                                  Демо
-                                </a>
+            {demo && (
+              <a
+                href={demo}
+                className="portfolio__link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Демо
+              </a>
+            )}
+            {websait && (
+              <a
+                href={websait}
+                className="portfolio__link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Сайт
+              </a>
             )}
             {repo && (
-                          <a
-                          href={repo}
-                          className="portfolio__link"
-                          target="_blank"
-                          rel="noopener noreferrer">
-                          Гитхаб
-                        </a>
-            ) }
-             {websait && (
-                          <a
-                          href={websait}
-                          className="portfolio__link"
-                          target="_blank"
-                          rel="noopener noreferrer">
-                          Сайт
-                        </a>
-            ) }
+              <a
+                href={repo}
+                className="portfolio__link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Гитхаб
+              </a>
+            )}
           </div>
         </div>
       </div>
