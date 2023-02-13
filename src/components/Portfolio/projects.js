@@ -5,7 +5,7 @@ export const projects = [
     imageDesktop: process.env.PUBLIC_URL + "/palladium_desktop.jpg",
     stack: "JS, HTML5, CSS3",
     website: "https://palladiumestate.ae/index.html",
-    // repo: "https://github.com/mrglk/recyclex",
+    repo: "https://github.com/mrglk/palladium-realty/tree/master",
     description: [
       "Адаптивная кроссбраузерная верстка по макету из Figma",
       "Анимации кнопок, появления текса, цифр",
