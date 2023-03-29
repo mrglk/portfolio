@@ -16,7 +16,7 @@ export const projects = [
     color: "brown"
   },
   {
-    name: "Лендинг для биржи вторсырья",
+    name: "Сайт для биржи вторсырья",
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.jpg",
     stack: "React, HTML5, CSS3, SCSS",
@@ -49,21 +49,6 @@ export const projects = [
       color: "blue"
     },
     {
-      name: " SPA-приложение для изучения английского",
-      imagePhone: process.env.PUBLIC_URL + "/en_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/en_desktop.jpg",
-      stack: "React, JavaScript, Redux, HTML5, CSS3, SCSS, CSS Modules",
-      demo: "https://mrglk.github.io/react_eng",
-      repo: "https://github.com/mrglk/react_eng",
-      description: [
-        "Отображение флеш-карточек и таблицы слов, загрузка данных через API",
-        "Изменение, сохранение, удаление и добавление новых слов с помощью Redux",
-        "Отображение перевода слова по клику на карточку и сохранение данных о количестве выученных слов",
-        "Переход между страницами при помощи react router с изменением url"
-      ],
-      color: "purple"
-    },
-    {
       name: "Cервис по поиску няни",
       imagePhone: process.env.PUBLIC_URL + "/service_phone.png",
       imageDesktop: process.env.PUBLIC_URL + "/service_desktop.jpg",
@@ -75,6 +60,21 @@ export const projects = [
         "Форма отправки заявки"
       ],
       color: "green"
+    },
+    {
+      name: " SPA-приложение для изучения английского",
+      imagePhone: process.env.PUBLIC_URL + "/en_phone.png",
+      imageDesktop: process.env.PUBLIC_URL + "/en_desktop.jpg",
+      stack: "React, JavaScript, Redux, HTML5, CSS3, SCSS, CSS Modules",
+      // demo: "https://mrglk.github.io/react_eng",
+      repo: "https://github.com/mrglk/react_eng",
+      description: [
+        "Отображение флеш-карточек и таблицы слов, загрузка данных через API",
+        "Изменение, сохранение, удаление и добавление новых слов с помощью Redux",
+        "Отображение перевода слова по клику на карточку и сохранение данных о количестве выученных слов",
+        "Переход между страницами при помощи react router с изменением url"
+      ],
+      color: "purple"
     }
   ]
   
