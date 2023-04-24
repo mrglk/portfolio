@@ -15,23 +15,23 @@ export const projects = [
     ],
     color: "brown"
   },
-  // {
-  //   name: "Каталог с сортировкой, фильтрацией и корзиной",
-  //   imagePhone: process.env.PUBLIC_URL + "/colors_phone.jpg",
-  //   imageDesktop: process.env.PUBLIC_URL + "/colors_desktop.jpg",
-  //   stack: "Vue 3, Vite, HTML, CSS, SCSS",
-  //   demo: "https://mrglk.github.io/colors/",
-  //   repo: "https://github.com/mrglk/colors",
-  //   description: [
-  //     "Адаптивная кроссбраузерная верстка по макету из Figma",
-  //     "Слайдер",
-  //     "Фильтрация по типам товаров",
-  //     "Сортировка по убыванию, возрастанию, популярности и новизне",
-  //     "Добавление, удаление и восстановление товаров в корзине",
-  //     "Расчет стоимости товаров в корзине"
-  //   ],
-  //   color: "brown"
-  // },
+  {
+    name: "Каталог с сортировкой, фильтрацией и корзиной",
+    imagePhone: process.env.PUBLIC_URL + "/colors_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/colors_desktop.jpg",
+    stack: "Vue 3, Vite, HTML, CSS, SCSS",
+    demo: "https://mrglk.github.io/colors/",
+    repo: "https://github.com/mrglk/colors",
+    description: [
+      "Адаптивная кроссбраузерная верстка по макету из Figma",
+      "Слайдер",
+      "Фильтрация по типам товаров",
+      "Сортировка по убыванию, возрастанию, популярности и новизне",
+      "Добавление, удаление и восстановление товаров в корзине",
+      "Расчет стоимости товаров в корзине"
+    ],
+    color: "brown"
+  },
   {
     name: "Сайт для биржи вторсырья",
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
