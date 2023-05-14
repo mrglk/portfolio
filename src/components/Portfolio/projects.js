@@ -1,4 +1,20 @@
 export const projects = [
+    {
+    name: "Магазин фруктов и овощей",
+    imagePhone: process.env.PUBLIC_URL + "/maghreb_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/maghreb_desktop.jpg",
+    stack: "JavaScript, HTML, CSS, WordPress",
+    website: "http://maghreb.zoupe.ru/",
+    // repo: "https://github.com/mrglk/palladium-realty/tree/master",
+    description: [
+      "Адаптивная кроссбраузерная верстка по макету из Figma",
+      "Реализация каталога с фильтрацией",
+      "Анимации кнопок, появления изображений, текса, цифр",
+      "Реализация слайдеров",
+      "Формы заявок, отправка данных на сервер"
+    ],
+    color: "brown"
+  },
   {
     name: "Агентство недвижимости в Дубае",
     imagePhone: process.env.PUBLIC_URL + "/palladium_phone.jpg",
