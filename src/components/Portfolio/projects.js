@@ -4,7 +4,7 @@ export const projects = [
     imagePhone: process.env.PUBLIC_URL + "/maghreb_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/maghreb_desktop.jpg",
     stack: "JavaScript, HTML, CSS, WordPress",
-    website: "http://maghreb.zoupe.ru/",
+    website: "http://maghreb.ae/",
     // repo: "https://github.com/mrglk/palladium-realty/tree/master",
     description: [
       "Адаптивная кроссбраузерная верстка по макету из Figma",
