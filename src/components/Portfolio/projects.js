@@ -1,4 +1,20 @@
 export const projects = [
+  {
+    name: "Агентство недвижимости в Дубае",
+    imagePhone: process.env.PUBLIC_URL + "/oneplace_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/oneplace_desktop.jpg",
+    stack: "JavaScript, HTML, CSS, WordPress",
+    website: "https://oneplacedubai.com/",
+    // repo: "https://github.com/mrglk/palladium-realty/tree/master",
+    description: [
+      "Адаптивная кроссбраузерная верстка по макету из Figma",
+      "Анимации, слайдеры",
+      "Реализация каталога с фильтрацией",
+      "Интеграция кастомной карты",
+      "Формы заявок, отправка данных на сервер"
+    ],
+    color: "brown"
+  },
     {
     name: "Магазин фруктов и овощей",
     imagePhone: process.env.PUBLIC_URL + "/maghreb_phone.jpg",
