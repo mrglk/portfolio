@@ -1,11 +1,11 @@
 export const projects = [
   {
-    name: "Агентство недвижимости в Дубае",
+    name: "Агентство элитной недвижимости в Дубае",
     imagePhone: process.env.PUBLIC_URL + "/oneplace_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/oneplace_desktop.jpg",
     stack: "JavaScript, HTML, CSS, WordPress",
     website: "https://oneplacedubai.com/",
-    // repo: "https://github.com/mrglk/palladium-realty/tree/master",
+    repo: "https://github.com/mrglk/oneplace-web",
     description: [
       "Адаптивная кроссбраузерная верстка по макету из Figma",
       "Анимации, слайдеры",
@@ -16,12 +16,12 @@ export const projects = [
     color: "brown"
   },
     {
-    name: "Магазин фруктов и овощей",
+    name: "Магазин фруктов и овощей из Марокко",
     imagePhone: process.env.PUBLIC_URL + "/maghreb_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/maghreb_desktop.jpg",
     stack: "JavaScript, HTML, CSS, WordPress",
     website: "http://maghreb.ae/",
-    // repo: "https://github.com/mrglk/palladium-realty/tree/master",
+    repo: "https://github.com/mrglk/maghreb-web",
     description: [
       "Адаптивная кроссбраузерная верстка по макету из Figma",
       "Реализация каталога с фильтрацией",
@@ -69,7 +69,7 @@ export const projects = [
     imagePhone: process.env.PUBLIC_URL + "/recyclex_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/recyclex_desktop.jpg",
     stack: "React, HTML, CSS, SCSS",
-    website: "https://recyclex.online/",
+    // website: "https://recyclex.online/",
     demo: "https://mrglk.github.io/recyclex",
     repo: "https://github.com/mrglk/recyclex",
     description: [
