@@ -1,5 +1,22 @@
 export const projects = [
   {
+    name: "Сайт для художницы Galiya Hami",
+    imagePhone: process.env.PUBLIC_URL + "/galiya_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/galiya_desktop.jpg",
+    stack: "React.js, Next.js, HTML, CSS, WordPress",
+    website: "https://galiya.art/",
+    // repo: "https://github.com/mrglk/oneplace-web",
+    description: [
+      "Адаптивная кроссбраузерная верстка по макету из Figma",
+      "Каталог с фильтрацией и сортировкой",
+      "Корзина, форма заказа, форма заявки и подписки",
+      "Переключение языка",
+      "Слайдеры на первом экране, слайдер с картинами",
+      "Анимация плавного появления всего контента",
+    ],
+    color: "brown",
+  },
+  {
     name: "Агентство элитной недвижимости в Дубае",
     imagePhone: process.env.PUBLIC_URL + "/oneplace_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/oneplace_desktop.jpg",
@@ -11,11 +28,11 @@ export const projects = [
       "Анимации, слайдеры",
       "Реализация каталога с фильтрацией",
       "Интеграция кастомной карты",
-      "Формы заявок, отправка данных на сервер"
+      "Формы заявок, отправка данных на сервер",
     ],
-    color: "brown"
+    color: "brown",
   },
-    {
+  {
     name: "Магазин фруктов и овощей из Марокко",
     imagePhone: process.env.PUBLIC_URL + "/maghreb_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/maghreb_desktop.jpg",
@@ -27,9 +44,9 @@ export const projects = [
       "Реализация каталога с фильтрацией",
       "Анимации кнопок, появления изображений, текса, цифр",
       "Реализация слайдеров",
-      "Формы заявок, отправка данных на сервер"
+      "Формы заявок, отправка данных на сервер",
     ],
-    color: "brown"
+    color: "brown",
   },
   {
     name: "Агентство недвижимости в Дубае",
@@ -43,9 +60,9 @@ export const projects = [
       "Анимации кнопок, появления текса, цифр",
       "Реализация кастомного селекта",
       "Реализация каталога объектов недвижимости",
-      "Формы заявок, отправка данных на сервер"
+      "Формы заявок, отправка данных на сервер",
     ],
-    color: "brown"
+    color: "brown",
   },
   {
     name: "Каталог с сортировкой, фильтрацией и корзиной",
@@ -60,9 +77,9 @@ export const projects = [
       "Фильтрация по типам товаров",
       "Сортировка по убыванию, возрастанию, популярности и новизне",
       "Добавление, удаление и восстановление товаров в корзине",
-      "Расчет стоимости товаров в корзине"
+      "Расчет стоимости товаров в корзине",
     ],
-    color: "orange"
+    color: "orange",
   },
   {
     name: "Сайт для биржи вторсырья",
@@ -77,53 +94,50 @@ export const projects = [
       "Форма заявки с анимацией по шагам в виде переписки",
       "Анимация кнопок",
       "Смена темы сайта со светлой на темную",
-      "Отправка данных из форм на сервер"
+      "Отправка данных из форм на сервер",
     ],
-    color: "orange"
+    color: "orange",
   },
-    {
-      name: "Интернет-магазин одежды",
-      imagePhone: process.env.PUBLIC_URL + "/shop_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/shop_desktop.jpg",
-      stack: "JavaScript, HTML, CSS, SCSS, Webpack",
-      demo: "https://mrglk.github.io/projectShop/index.html",
-      repo: "https://github.com/mrglk/projectShop",
-      description: [
-        "Адаптивная валидная верстка по макету из Figma",
-        "Фильтрация каталога по категориям",
-        "Выбор размера, добавление и удаление товаров из корзины",
-        "Форма оформления заказа с перенаправлением на оплату",
-        "Поиск товаров по сайту"
-      ],
-      color: "blue"
-    },
-    {
-      name: "Cервис по поиску няни",
-      imagePhone: process.env.PUBLIC_URL + "/service_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/service_desktop.jpg",
-      stack: "HTML, CSS, SCSS, JavaScript",
-      demo: "https://mrglk.github.io/projectMynanny/index.html",
-      repo: "https://github.com/mrglk/projectMynanny",
-      description: [
-        "Адаптивная валидная верстка сайта",
-        "Форма отправки заявки"
-      ],
-      color: "green"
-    },
-    {
-      name: " SPA-приложение для изучения английского",
-      imagePhone: process.env.PUBLIC_URL + "/en_phone.png",
-      imageDesktop: process.env.PUBLIC_URL + "/en_desktop.jpg",
-      stack: "React, JavaScript, Redux, HTML, CSS, SCSS, CSS Modules",
-      // demo: "https://mrglk.github.io/react_eng",
-      repo: "https://github.com/mrglk/react_eng",
-      description: [
-        "Отображение флеш-карточек и таблицы слов, загрузка данных через API",
-        "Изменение, сохранение, удаление и добавление новых слов с помощью Redux",
-        "Отображение перевода слова по клику на карточку и сохранение данных о количестве выученных слов",
-        "Переход между страницами при помощи react router с изменением url"
-      ],
-      color: "purple"
-    }
-  ]
+  {
+    name: "Интернет-магазин одежды",
+    imagePhone: process.env.PUBLIC_URL + "/shop_phone.png",
+    imageDesktop: process.env.PUBLIC_URL + "/shop_desktop.jpg",
+    stack: "JavaScript, HTML, CSS, SCSS, Webpack",
+    demo: "https://mrglk.github.io/projectShop/index.html",
+    repo: "https://github.com/mrglk/projectShop",
+    description: [
+      "Адаптивная валидная верстка по макету из Figma",
+      "Фильтрация каталога по категориям",
+      "Выбор размера, добавление и удаление товаров из корзины",
+      "Форма оформления заказа с перенаправлением на оплату",
+      "Поиск товаров по сайту",
+    ],
+    color: "blue",
+  },
+  {
+    name: "Cервис по поиску няни",
+    imagePhone: process.env.PUBLIC_URL + "/service_phone.png",
+    imageDesktop: process.env.PUBLIC_URL + "/service_desktop.jpg",
+    stack: "HTML, CSS, SCSS, JavaScript",
+    demo: "https://mrglk.github.io/projectMynanny/index.html",
+    repo: "https://github.com/mrglk/projectMynanny",
+    description: ["Адаптивная валидная верстка сайта", "Форма отправки заявки"],
+    color: "green",
+  },
+  {
+    name: " SPA-приложение для изучения английского",
+    imagePhone: process.env.PUBLIC_URL + "/en_phone.png",
+    imageDesktop: process.env.PUBLIC_URL + "/en_desktop.jpg",
+    stack: "React, JavaScript, Redux, HTML, CSS, SCSS, CSS Modules",
+    // demo: "https://mrglk.github.io/react_eng",
+    repo: "https://github.com/mrglk/react_eng",
+    description: [
+      "Отображение флеш-карточек и таблицы слов, загрузка данных через API",
+      "Изменение, сохранение, удаление и добавление новых слов с помощью Redux",
+      "Отображение перевода слова по клику на карточку и сохранение данных о количестве выученных слов",
+      "Переход между страницами при помощи react router с изменением url",
+    ],
+    color: "purple",
+  },
+];
   
