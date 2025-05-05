@@ -9,14 +9,15 @@ export function Profile() {
       </div>
       <div className="profile__info">
         <h1 className="profile__name">Мария Галко</h1>
-        <p className="profile__title">Frontend-разработчик JS/React</p>
+        <p className="profile__title">Frontend-разработчик JS/Vue/React</p>
         <div className="profile__buttonWrapper">
           <a
             className="profile__button"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1tzVyyqxNBpPaPcjgJxg78ye_Lbca3XEX/view">
-            Скачать резюме
+            href="https://spb.hh.ru/resume/6b823947ff0bb427a70039ed1f376e6e6b6576">
+            {/* // href="https://drive.google.com/file/d/1tzVyyqxNBpPaPcjgJxg78ye_Lbca3XEX/view"> */}
+            Резюме на HH
           </a>
         </div>
       </div>

@@ -1,5 +1,22 @@
 export const projects = [
   {
+    name: "Платформа для подготовки к экзамену по вождению в UK",
+    imagePhone: process.env.PUBLIC_URL + "/drivingtheory_phone.jpg",
+    imageDesktop: process.env.PUBLIC_URL + "/drivingtheory_desktop.jpg",
+    stack: "Vue 3 (Composition API), Nuxt 3,TypeScript, HTML, CSS",
+    website: "https://drivingtheory.rayapp.co.uk/",
+    // repo: "https://github.com/mrglk/oneplace-web",
+    description: [
+      "Теоретически тесты",
+      "Видео-тесты hazard perception",
+      "Различные режимы обучения: экспресс-режим, марафон и другие",
+      "Личный кабинет с планом обучения, статистикой и оформлением подписки",
+      "Поиск по базе инструкторов UK и по всему сайту",
+      "Блог с рейтингом, комментариями и другое",
+    ],
+    color: "brown",
+  },
+  {
     name: "Сайт для художницы Galiya Hami",
     imagePhone: process.env.PUBLIC_URL + "/galiya_phone.jpg",
     imageDesktop: process.env.PUBLIC_URL + "/galiya_desktop.jpg",
